@@ -1,0 +1,12 @@
+services:
+  tool:
+    container_name: weather-tool
+    build: ./mcp-weather
+
+  frontend:
+    container_name: weather-frontend
+    build: ./frontend
+    ports:
+      - "8000:8000"
+    depends_on:
+      - tool

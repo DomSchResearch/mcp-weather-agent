@@ -1,0 +1,6 @@
+langchain-mcp-adapters
+langchain-openai
+langchain
+langchain-core
+langgraph
+chainlit
