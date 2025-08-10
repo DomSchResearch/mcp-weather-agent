@@ -9,7 +9,7 @@ The architecture is designed to be modular:
 - All application components are containerized using **Docker**
 - The agent tool for weather forecasting is available as MCP ([Model Context Protocol](https://github.com/modelcontextprotocol)) server and is called using a MCP client
 - The MCP server is implemented in **Python** using the **FastMCP** framework.
-- The agent workflow is generated using the prebuilt **[Langgraph ReAct]**(https://github.com/langchain-ai/react-agent) framework
+- The agent workflow is generated using the prebuilt [**Langgraph ReAct**](https://github.com/langchain-ai/react-agent) framework
 - The interface is provided using [**Chainlit**](https://github.com/Chainlit/chainlit)
 
 ## Features
